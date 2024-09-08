@@ -1,10 +1,14 @@
-# ファイル構成
-``` 
-|- core                         # コア関係のファイル
-|- io                           # I/O関係のファイル
-|- FPU-Memory                   # 省略
-|- vivado                       # vivadoっで動かすためのファイル
-    |- top.sv                   # topモジュール
-    |- Nexys-A7-100T-Master.xdc # 制約ファイル
-|- test                         # verilatorで動かすためのファイル
+CPU Experiment 2023 - Group 6 Core
+=
+## Slide
+https://docs.google.com/presentation/d/1-QYyPGRGEIJhunH3_CakvjWo_-eKDOzxqOhcFEfTnUY
+## File Structure
+```
+|- core                         # Core-related files
+|- io                           # I/O-related files
+|- FPU-Memory                   # Omitted for brevity
+|- vivado                       # Files for Vivado implementation
+    |- top.sv                   # Top module
+    |- Nexys-A7-100T-Master.xdc # Constraint file
+|- test                         # Files for running with Verilator
 ```
